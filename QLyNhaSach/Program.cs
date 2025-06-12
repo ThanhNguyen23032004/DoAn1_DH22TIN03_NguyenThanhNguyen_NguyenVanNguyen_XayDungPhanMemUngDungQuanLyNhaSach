@@ -16,7 +16,7 @@ namespace QLyNhaSach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmQLyNhap());
+            Application.Run(new FrmTrangChu());
         }
     }
 }

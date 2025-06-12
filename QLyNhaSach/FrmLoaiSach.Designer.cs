@@ -345,7 +345,7 @@
             this.guna2GroupBox3.Name = "guna2GroupBox3";
             this.guna2GroupBox3.Size = new System.Drawing.Size(818, 301);
             this.guna2GroupBox3.TabIndex = 26;
-            this.guna2GroupBox3.Text = "Danh Sách Dữ Liệu Tài Khoản Người Dùng";
+            this.guna2GroupBox3.Text = "Danh Sách Loại Sách";
             this.guna2GroupBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dgvDanhSach

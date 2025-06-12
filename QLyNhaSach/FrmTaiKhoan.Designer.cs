@@ -57,7 +57,6 @@
             this.PhanQuyen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayTao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayCapNhat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GruBChucNang = new Guna.UI2.WinForms.Guna2GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnThem = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -105,7 +104,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.7666F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.03212F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.01285F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label5, 5, 1);
             this.tableLayoutPanel2.Controls.Add(this.label3, 3, 1);
@@ -138,7 +137,7 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(68, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 36);
+            this.label1.Size = new System.Drawing.Size(205, 36);
             this.label1.TabIndex = 22;
             this.label1.Text = "Mã Nhân Viên";
             // 
@@ -147,9 +146,9 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(607, 19);
+            this.label5.Location = new System.Drawing.Point(602, 19);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(279, 36);
+            this.label5.Size = new System.Drawing.Size(277, 36);
             this.label5.TabIndex = 24;
             this.label5.Text = "Trạng Thái";
             // 
@@ -158,9 +157,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(324, 19);
+            this.label3.Location = new System.Drawing.Point(321, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(233, 36);
+            this.label3.Size = new System.Drawing.Size(231, 36);
             this.label3.TabIndex = 23;
             this.label3.Text = "Tài Khoản";
             // 
@@ -169,9 +168,9 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(607, 115);
+            this.label6.Location = new System.Drawing.Point(602, 115);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(279, 36);
+            this.label6.Size = new System.Drawing.Size(277, 36);
             this.label6.TabIndex = 27;
             this.label6.Text = "Phân Quyền";
             // 
@@ -180,9 +179,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(324, 115);
+            this.label4.Location = new System.Drawing.Point(321, 115);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(233, 36);
+            this.label4.Size = new System.Drawing.Size(231, 36);
             this.label4.TabIndex = 26;
             this.label4.Text = "Mật Khẩu";
             // 
@@ -193,7 +192,7 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(68, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(207, 36);
+            this.label2.Size = new System.Drawing.Size(205, 36);
             this.label2.TabIndex = 25;
             this.label2.Text = "Tên Nhân Viên";
             // 
@@ -212,9 +211,9 @@
             this.cbbTrangThai.ItemHeight = 30;
             this.cbbTrangThai.Items.AddRange(new object[] {
             ""});
-            this.cbbTrangThai.Location = new System.Drawing.Point(607, 58);
+            this.cbbTrangThai.Location = new System.Drawing.Point(602, 58);
             this.cbbTrangThai.Name = "cbbTrangThai";
-            this.cbbTrangThai.Size = new System.Drawing.Size(279, 36);
+            this.cbbTrangThai.Size = new System.Drawing.Size(277, 36);
             this.cbbTrangThai.TabIndex = 28;
             // 
             // cbbTenNV
@@ -232,7 +231,7 @@
             this.cbbTenNV.ItemHeight = 30;
             this.cbbTenNV.Location = new System.Drawing.Point(68, 154);
             this.cbbTenNV.Name = "cbbTenNV";
-            this.cbbTenNV.Size = new System.Drawing.Size(207, 36);
+            this.cbbTenNV.Size = new System.Drawing.Size(205, 36);
             this.cbbTenNV.TabIndex = 29;
             // 
             // cbbPhanQquyen
@@ -252,9 +251,9 @@
             "Admin",
             "Nhân viên",
             "Thủ kho"});
-            this.cbbPhanQquyen.Location = new System.Drawing.Point(607, 154);
+            this.cbbPhanQquyen.Location = new System.Drawing.Point(602, 154);
             this.cbbPhanQquyen.Name = "cbbPhanQquyen";
-            this.cbbPhanQquyen.Size = new System.Drawing.Size(279, 36);
+            this.cbbPhanQquyen.Size = new System.Drawing.Size(277, 36);
             this.cbbPhanQquyen.TabIndex = 30;
             // 
             // txtHoTen
@@ -276,7 +275,7 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.PlaceholderText = "";
             this.txtHoTen.SelectedText = "";
-            this.txtHoTen.Size = new System.Drawing.Size(207, 52);
+            this.txtHoTen.Size = new System.Drawing.Size(205, 52);
             this.txtHoTen.TabIndex = 31;
             // 
             // txtMatKhau
@@ -293,12 +292,12 @@
             this.txtMatKhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhau.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMatKhau.Location = new System.Drawing.Point(324, 155);
+            this.txtMatKhau.Location = new System.Drawing.Point(321, 155);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PlaceholderText = "";
             this.txtMatKhau.SelectedText = "";
-            this.txtMatKhau.Size = new System.Drawing.Size(233, 48);
+            this.txtMatKhau.Size = new System.Drawing.Size(231, 48);
             this.txtMatKhau.TabIndex = 32;
             // 
             // txtTaiKhoan
@@ -315,12 +314,12 @@
             this.txtTaiKhoan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTaiKhoan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTaiKhoan.Location = new System.Drawing.Point(324, 59);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(321, 59);
             this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.PlaceholderText = "";
             this.txtTaiKhoan.SelectedText = "";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(233, 52);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(231, 52);
             this.txtTaiKhoan.TabIndex = 33;
             // 
             // guna2Panel2
@@ -388,8 +387,7 @@
             this.MatKhau,
             this.PhanQuyen,
             this.TrangThai,
-            this.NgayTao,
-            this.NgayCapNhat});
+            this.NgayTao});
             this.dgvDanhSach.Cursor = System.Windows.Forms.Cursors.AppStarting;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -489,14 +487,6 @@
             this.NgayTao.MinimumWidth = 6;
             this.NgayTao.Name = "NgayTao";
             this.NgayTao.ReadOnly = true;
-            // 
-            // NgayCapNhat
-            // 
-            this.NgayCapNhat.DividerWidth = 1;
-            this.NgayCapNhat.HeaderText = "Ngày Cập Nhật";
-            this.NgayCapNhat.MinimumWidth = 6;
-            this.NgayCapNhat.Name = "NgayCapNhat";
-            this.NgayCapNhat.ReadOnly = true;
             // 
             // GruBChucNang
             // 
@@ -705,14 +695,6 @@
         private Guna.UI2.WinForms.Guna2GroupBox GrpBThongTin;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox3;
         private Guna.UI2.WinForms.Guna2DataGridView dgvDanhSach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaNV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TaiKhoan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MatKhau;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhanQuyen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgayTao;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgayCapNhat;
         private Guna.UI2.WinForms.Guna2PictureBox pcbAvatar;
         private Guna.UI2.WinForms.Guna2GroupBox GruBChucNang;
         private Guna.UI2.WinForms.Guna2Button btnTimKiem;
@@ -737,5 +719,12 @@
         private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
         private Guna.UI2.WinForms.Guna2TextBox txtMatKhau;
         private Guna.UI2.WinForms.Guna2TextBox txtTaiKhoan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaNV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TaiKhoan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MatKhau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PhanQuyen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayTao;
     }
 }
